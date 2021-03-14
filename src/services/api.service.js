@@ -21,7 +21,7 @@ class ApiService {
       });
       return sendRequest(request);
     } catch (error) {
-      console.log(console.error());
+      console.log(error);
     }
   }
 }
