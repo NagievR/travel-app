@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rates-block {
+    /* width: 90%; */
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+@media (max-width: 680px) {
+    .rates-block {
+        font-size: 12px;
+    }
+}

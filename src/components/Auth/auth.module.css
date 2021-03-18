@@ -1,0 +1,119 @@
+.modal {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.subscriptionForm {
+  position: fixed;
+  top: 5vh;
+  right: 1vw;
+  left: 1vw;
+  min-width: 320px;
+  background: gainsboro;
+  z-index: 2;
+  margin: 0 auto;
+  width: 80vw;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(35deg, #ccffff, #ffcccc);
+}
+
+.subscriptionForm input {
+  display: block;
+  margin: 40px auto;
+  border-radius: 7px;
+  border: inherit;
+  padding: 5px 10px;
+}
+
+.subscriptionForm button {
+  background: khaki;
+  border: inherit;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: 20px;
+  background: rgba(35, 185, 29, 0.932);
+}
+
+.auth {
+  position: absolute;
+  right: 30px;
+  top: 70px;
+  display: flex;
+
+}
+
+.auth_btn {
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: underline;
+  color: #dddddd;
+  /* text-transform: uppercase; */
+  transition: 0.3s;
+}
+.auth_btn:hover {
+  color: black;
+}
+
+.auth_btn:first-child {
+  margin-right: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  height: 20px;
+  margin-top: 10px;
+}
+
+
+.choose_file {
+  margin-bottom: 5px !important;
+}
+
+.preview_wrap {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+.preview {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .subscriptionForm {
+    width: 96vw;
+    height: 96vh;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+  }
+
+  .auth_btn {
+    color: black;
+  }
+  .auth_btn:hover {
+    color: #dddddd;
+  }
+}
+

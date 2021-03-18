@@ -1,0 +1,10 @@
+{
+  "port": 6000,
+  "mongoUri": "mongodb+srv://nagievr:1234qwer@cluster0.bnydk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "jwtSecret": "top secret 28",
+  "cloudinary": {
+    "cloud_name": "dog9ggprw",
+    "api_key": "638414639844615",
+    "api_secret": "SGSLnRtymnFTKUUKMATMz86GYQU"
+  }
+}

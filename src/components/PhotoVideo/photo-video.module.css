@@ -1,0 +1,26 @@
+.wrapper {
+  margin: 4% auto;
+  width: 60%;
+}
+
+.gallery {
+  margin-bottom: 20px;
+  background: #bbbaba;
+  background: radial-gradient(circle, #bbbaba 60%, #f0eeee 100%);
+}
+
+.video_player {
+  margin-bottom: 5vh;
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    width: 90%;
+  }  
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    width: 100%;
+  }  
+}

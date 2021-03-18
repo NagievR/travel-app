@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+html {
+	background-color: #f7f7f7;
+}
+
+h1 {
+	margin: 0;
+}
+
+.main {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13pt;
+	color: #696969;
+	font-weight: 300;
+	line-height: 2.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.widget,
+.photoBox,
+.countryInfo,
+.mapBox {
+  width: 95%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.widget,
+.countryInfo,
+.mapBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mapBox {
+  margin: 4%;
+  width: 100%;
+  border-radius: 0;
+  background-color: #FFCC99;
+  box-shadow: 0 10px 10px 4px rgba(0, 0, 0, .4);
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather,
+.date,
+.currency,
+.mainPhoto,
+.text {
+  flex: 1;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.mainPhoto {
+	flex: 1;
+}
+
+.info,
+.map {
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.map {
+  height: calc(100vw / 3);
+  width: calc(100vw / 1.1);
+}
+
+.text {
+  font-family: 'Akaya Telivigala', cursive;
+  text-transform: uppercase;
+  font-size: 2em;
+}
